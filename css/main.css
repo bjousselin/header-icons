@@ -13,12 +13,22 @@ html {
 }
 
 header {
-	font-family: "Merriweather", sans-serif;
-  background-color:#ffffff;
+	font-family: "Merriweather", serif;
+  text-align: center;
+  background-color:#d05c2e;
+  color: #fff;
+  clear: both;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: .4em 0;
+  width: 100%;
 }
 
 img {
-  float:left;
+  padding: .4em 0;
   width:40px;
 }
 
@@ -28,4 +38,11 @@ img {
 
 .grain-right {
   float:right;
+}
+
+nav{
+  color:black;
+  float: left;
+  width:32%;
+  text-align: center;
 }
