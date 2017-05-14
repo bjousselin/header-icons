@@ -12,9 +12,14 @@ html {
 	text-size-adjust: 100%;
 }
 
+body {
+  margin: 0;
+}
+
 header {
 	font-family: "Merriweather", serif;
   text-align: center;
+  line-height: 1.5;
   background-color:#d05c2e;
   color: #fff;
   clear: both;
@@ -22,14 +27,19 @@ header {
 }
 
 h1 {
+  font-size: 2rem;
   margin: 0;
   padding: .4em 0;
   width: 100%;
+  border-bottom: solid #a63f38;
+  border-width: 1px;
 }
 
 img {
-  padding: .4em 0;
+  padding: .7em 0;
   width:40px;
+  margin: .3rem;
+
 }
 
 .grain-left {
@@ -40,9 +50,20 @@ img {
   float:right;
 }
 
+.wrapper{
+  overflow: hidden;
+}
+
 nav{
-  color:black;
+  font-size: 1.125rem;
+  border-right: solid #a63f38;
+  border-bottom: solid #a63f38;
+  border-width: 1px;
+  padding: .4rem 0;
   float: left;
-  width:32%;
-  text-align: center;
+  width:33%;
+}
+
+.nav-right{
+  float:right;
 }
