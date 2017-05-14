@@ -5,11 +5,11 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-	box-sizing: border-box;
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-	font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   text-align: center;
   line-height: 1.5;
   background-color: #d05c2e;
@@ -49,33 +49,33 @@ img {
   float: right;
 }
 
-.wrapper{
+.wrapper {
   overflow: hidden;
 }
 
-nav{
+nav {
   font-size: 1.125rem;
 }
 
 a {
-    float: left;
-    width:33%;
-    border-bottom: solid #a63f38;
-    border-width: 1px;
-    padding: .4rem 0;
+  float: left;
+  width: 33%;
+  border-bottom: solid #a63f38;
+  border-width: 1px;
+  padding: .4rem 0;
 }
 
 a:hover {
-    background-color: #a63f38;
+  background-color: #a63f38;
 }
 
-.nav-left{
+.nav-left {
   float: left;
   border-right: solid #a63f38;
   border-width: 1px;
 }
 
-.nav-right{
+.nav-right {
   float: right;
   border-left: solid #a63f38;
   border-width: 1px;
