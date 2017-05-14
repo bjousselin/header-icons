@@ -20,7 +20,7 @@ header {
 	font-family: "Merriweather", serif;
   text-align: center;
   line-height: 1.5;
-  background-color:#d05c2e;
+  background-color: #d05c2e;
   color: #fff;
   clear: both;
   padding: 0;
@@ -37,16 +37,16 @@ h1 {
 
 img {
   padding: .7em 0;
-  width:40px;
+  width: 40px;
   margin: .3rem;
 }
 
 .grain-left {
-  float:left;
+  float: left;
 }
 
 .grain-right {
-  float:right;
+  float: right;
 }
 
 .wrapper{
@@ -70,13 +70,13 @@ a:hover {
 }
 
 .nav-left{
-  float:left;
+  float: left;
   border-right: solid #a63f38;
   border-width: 1px;
 }
 
 .nav-right{
-  float:right;
+  float: right;
   border-left: solid #a63f38;
   border-width: 1px;
 }
