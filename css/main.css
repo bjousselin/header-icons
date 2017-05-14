@@ -39,7 +39,6 @@ img {
   padding: .7em 0;
   width:40px;
   margin: .3rem;
-
 }
 
 .grain-left {
@@ -56,12 +55,11 @@ img {
 
 nav{
   font-size: 1.125rem;
-
 }
 
 a {
     float: left;
-    width:33.23%;
+    width:33%;
     border-bottom: solid #a63f38;
     border-width: 1px;
     padding: .4rem 0;
