@@ -56,14 +56,29 @@ img {
 
 nav{
   font-size: 1.125rem;
+
+}
+
+a {
+    float: left;
+    width:33.23%;
+    border-bottom: solid #a63f38;
+    border-width: 1px;
+    padding: .4rem 0;
+}
+
+a:hover {
+    background-color: #a63f38;
+}
+
+.nav-left{
+  float:left;
   border-right: solid #a63f38;
-  border-bottom: solid #a63f38;
   border-width: 1px;
-  padding: .4rem 0;
-  float: left;
-  width:33%;
 }
 
 .nav-right{
   float:right;
+  border-left: solid #a63f38;
+  border-width: 1px;
 }
